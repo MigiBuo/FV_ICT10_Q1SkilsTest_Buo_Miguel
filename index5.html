@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Skills Test</title>
+    <style type="text/css">
+
+    body{
+        background-image:url(https://images.pexels.com/photos/162763/delicious-garnish-potatoes-fried-162763.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .borador{
+        border: 5px;
+        border-color: rgb(246, 246, 246);
+        background-color: rgb(255, 255, 255);
+        margin-top: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border-radius: 20px;
+        color: black;
+    }
+
+    </style>
+</head>
+<body>
+    <center>
+<h1 style="text-align: center; font-size: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: whitesmoke;">potato core</h1>
+<div class="borador">
+    <h2 style="text-align: center; font-family: Raleway;">Food Ordering Service</h2><br><br>
+    <label style="font-size: medium;">Menu:</label><br><br>
+    <input type="checkbox" id="patatas" value="150.50" name="menu">
+    <label for="menu">Potatonado - ₱150.50</label><br>
+    <input type="checkbox" id="potatos" value="100.50" name="mene">
+    <label for="menu">Fries w/o toppings - ₱100.50</label><br>
+    <input type="checkbox" id="patotas" value="125.50" name="menu">
+    <label for="menu">Fries w toppings - ₱125.50</label>
+    <br><br>
+    <label style="font-size: medium;">Customer Details</label><br><br>
+    <input type="text" id="name" placeholder="Name. . ." class="form-control" style="text-align: center; color: darkorange;"><br> 
+    <input type="text" id="address" placeholder="Address. . ." class="form-control" style="text-align: center; color: darkorange;"><br> 
+    <input type="text" id="contactinfo" placeholder="Contact Info. . ." class="form-control" style="text-align: center; color: darkorange;"><br> 
+    <button type="submit" py-click="Restate" class="form-control" id="button" style="color: black;">Create Order</button><br><br>
+    <div id="appear1"></div>
+    <div id="appear2"></div>
+    <div id="appear3"></div>
+    <div id="appear4"></div>
+    </center>
+    </div>
+
+
+    <script type="py" src="main5.py"></script>
+    
+</body>
+</html>
